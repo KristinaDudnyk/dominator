@@ -7,21 +7,23 @@
  * @returns {number} The product of the three returned values (i.e. multiply them)
  */
 export function main() {
+  const result = meFirst() * meMiddle() * meLast();
   // TODO: Call the functions in the correct order
   // TODO: Return the product of the three returned values
+  return result;
 }
 
 function meFirst() {
-  console.log('first!')
-  return 17
+  console.log("first!");
+  return 17;
 }
 
 function meMiddle() {
-  console.log('middle!')
-  return 19
+  console.log("middle!");
+  return 19;
 }
 
 function meLast() {
-  console.log('last!')
-  return 23
+  console.log("last!");
+  return 23;
 }
